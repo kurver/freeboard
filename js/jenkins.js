@@ -76,9 +76,9 @@
 	});
 
 	freeboard.addStyle('.jenkins-indicator-light', "border-radius:50%;width:22px;height:22px;border:2px solid #3d3d3d;margin-top:5px;float:left;background-color:#222;margin-right:10px;");
-	freeboard.addStyle('.jenkins-indicator-light.failed', "background-color:Red;box-shadow: 0px 0px 15px #FF9900;border-color:#FDF1DF;");
-	freeboard.addStyle('.jenkins-indicator-light.unstable', "background-color:Yellow;box-shadow: 0px 0px 15px #FF9900;border-color:#FDF1DF;");
-	freeboard.addStyle('.jenkins-indicator-light.stable', "background-color:Blue;box-shadow: 0px 0px 15px #FF9900;border-color:#FDF1DF;");
+	freeboard.addStyle('.jenkins-indicator-light.failed', "background-color: #EF2929;box-shadow: 0px 0px 15px #EF2929;border-color:#FDF1DF;");
+	freeboard.addStyle('.jenkins-indicator-light.unstable', "background-color: #FBF2A7;box-shadow: 0px 0px 15px #FBF2A7;border-color:#FDF1DF;");
+	freeboard.addStyle('.jenkins-indicator-light.stable', "background-color: #5886BD;box-shadow: 0px 0px 15px #5886BD;border-color:#FDF1DF;");
 	freeboard.addStyle('.jenkins-indicator-text', "margin-top:10px;");
     var jenkinsBuildIndicatorWidget = function (settings) {
         var self = this;
